@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= @title %></title>
+  <%= stylesheet_link_tag"site" %>
+</head>
+<body>
+<div id="whole_page">
+  <div id="header">FreiShare</div>
+        <%= link_to_unless_current("Home",{:action => "index"}) %> |
+        <%= link_to_unless_current("About Us",{:action => "about"}) %>   |
+        <%= link_to_unless_current("Help",{:action => "help"}) %>
+  <div id="content"> <%= yield %>
+  </div>
+
+</div>
+</body>
+</html>
