@@ -1,3 +1,11 @@
+==About the Application
+
+It's just an idea which I have started working on. Still in it's initial stage, 
+the application is Rails based. As the name suggests, the application is kind of
+social network site with add on features to sharing. More will be updated as the 
+application builds on.
+
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
